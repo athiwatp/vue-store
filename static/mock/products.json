@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "Totodile",
+        "price": 200,
+        "description": "Despite the smallness of its body, Totodile's jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+        "image": "http://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png"
+    },
+    {
+        "id": 1,
+        "name": "Bulbasaur",
+        "price": 200,
+        "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+        "image": "http://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+    },
+    {
+        "id": 2,
+        "name": "Charmander",
+        "price": 200,
+        "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+        "image": "http://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+    },
+    {
+        "id": 3,
+        "name": "Wartortle",
+        "price": 200,
+        "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
+        "image": "http://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png"
+    },
+    {
+        "id": 4,
+        "name": "Jigglypuff",
+        "price": 200,
+        "description": "Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.",
+        "image": "http://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
+    }
+]
