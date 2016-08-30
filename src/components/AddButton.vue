@@ -37,6 +37,7 @@
 
 <style scoped>
     a {
+        margin: 5px;
         padding: 10px 15px;
         text-align: center;
         max-width: 100px;

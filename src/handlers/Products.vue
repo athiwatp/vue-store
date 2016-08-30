@@ -1,7 +1,9 @@
 <template>
     <div>
-        <h1>Products</h1>
-        <product v-for='product of products' :product='product'></product>
+        <h1>Pokettomonsutā</h1>
+        <div class="products">
+            <product v-for='product of products' :product='product'></product>
+        </div>
     </div>
 </template>
 
@@ -33,10 +35,11 @@
 
 <style>
 .products {
-    display: flex
-}
-.product {
-    flex: 1
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 a {
 

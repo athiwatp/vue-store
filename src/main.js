@@ -6,7 +6,7 @@ import routes from './routes'
 import App from './App'
 Vue.use(VueResource)
 Vue.use(VueWaves)
-Vue.http.options.root = '/static/mock'
+Vue.http.options.root = process.env.NODE_ENV === 'development' ?  '/static/mock' : 'https://rssfrncs.github.io/vue-store-gh-pages/static/mock'
 Vue.use(VueRouter)
 Vue.transition('fade', {
     enterClass: 'fadeIn',

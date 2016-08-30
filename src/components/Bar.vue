@@ -1,6 +1,6 @@
 <template>
     <div class="bar">
-        <a v-link='{path: "/"}' class='title'>Cool company</a>
+        <a v-link='{path: "/"}' class='title'>ポケットモンスター!</a>
         <slot></slot>
     </div>
 </template>

@@ -21,6 +21,7 @@
 
 <style>
     .remove {
+        cursor: pointer;
         color: #e42e8b
     }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div class="product">
         <Center>
-            <h2 @click='go'>{{product.name}}</h2>
+            <h2>{{product.name}}</h2>
             <background-image :src='product.image'></background-image>
             <center-row>
                 <add-button :product='product'></add-button>
@@ -25,10 +25,6 @@
             CenterRow,
             AddButton,
             InfoButton
-        },
-        methods: {
-            go() {
-            }
         }
     }
 </script>
@@ -38,7 +34,17 @@
         text-decoration: none;
     }
     .product {
-        width: 100%;
+        flex: 0 0 100%;
         margin-bottom: 15px;
+    }
+    @media (min-width: 660px) {
+        .product {
+            flex: 0 0 50%;
+        }
+    }
+    @media (min-width: 920px) {
+        .product {
+            flex: 0 0 33%;
+        }
     }
 </style>

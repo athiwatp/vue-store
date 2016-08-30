@@ -29,6 +29,7 @@
 
 <style scoped>
     div {
+        cursor: pointer;
         background: linear-gradient(-71deg, #e42e8b -2% , #f33c7a 50%, #ff5f95 73%);
         border-radius: 4px;
         color: #fff;
